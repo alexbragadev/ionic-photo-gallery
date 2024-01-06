@@ -1,3 +1,6 @@
+import { defineCustomElements } from '@ionic/pwa-elements/loader';
+// Call the element loader before the bootstrapModule/bootstrapApplication call
+defineCustomElements(window);
 import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
